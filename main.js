@@ -272,11 +272,3 @@ const texts = ['Tech-obsessed', 'Trouble-Shooter', 'Google-Ling'];
   //   document.getElementById("success-message").style.display = "block";
   // }
   
-
-
-  // new header 
-  hamburger = document.querySelector(".hamburger");
-        nav = document.querySelector("nav");
-        hamburger.onclick = function() {
-            nav.classList.toggle("active");
-        }
